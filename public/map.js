@@ -29,7 +29,7 @@ L.tileLayer(tiles, {
  */
 function updateMap(data) {
   
-  // 👉 add code inside this function (from Chapter 10) ...
+  // 👉 add code inside this function (Chapter 10) ...
   
 
   

@@ -1,7 +1,7 @@
 // route.js - Add endpoints to the API
 
-// import functions from database.js
-import db from "./database.js";
+// 👉 import functions from database.js here (Chapter 10)
+
 
 const routes = async (server, options) => {
   // endpoint > test
@@ -9,7 +9,7 @@ const routes = async (server, options) => {
     reply.send({ message: "hello" });
   });
 
-  // 👉 add endpoint here (from Chapter 10) ...
+  // 👉 add endpoint to retrieve data here (Chapter 10) ...
 
 
   // 👈
@@ -42,10 +42,10 @@ const routes = async (server, options) => {
     reply.redirect("/");
   });
 
-  // add test data
-  server.get("/addTestData", async function (request, reply) {
-    await db.addTestData();
-    reply.redirect("/");
-  });
+  // 👉 add test data endpoint here (Chapter 10) ...
+
+
+  // 👈
+  
 };
 export default routes;

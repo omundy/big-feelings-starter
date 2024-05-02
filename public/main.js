@@ -1,7 +1,7 @@
 // client-side js run by the browser
 
 async function main() {
-  // 👉 add code inside this function (from Chapter 10) ...
+  // 👉 add code inside this function (Chapter 10) ...
 
 
 
@@ -12,7 +12,7 @@ main();
 function submitForm(e) {
   e.preventDefault();
 
-  // 👉 add code inside this function (from Chapter 10) ...
+  // 👉 add code inside this function (Chapter 10) ...
 
 
 
